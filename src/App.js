@@ -1,20 +1,12 @@
-import React, {useState} from "react";
-import Pregunta from "./components/Pregunta";
+import React from "react";
+
 
 function App() {
-
-  // Definir el estado
-  const [ presupuesto, guardarPresupuesto] = useState(0);
-  const [ restante, guardarRestante] = useState(0);
-
 
   return (
     <div className="container">
       <header>
-        <h1>Gasto Semanal</h1>
-        <div className="contenido-principal contenido">
-          <Pregunta />
-        </div>
+      <h1>Gasto Personal</h1>
       </header>
     </div>
   );
